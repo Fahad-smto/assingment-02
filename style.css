@@ -3,22 +3,20 @@
 
  body{
     margin: 0px;
-   
+   /* ---------------------------section-01 ------------------------- */
  }
  .section-01{
   
     display: flex;
     justify-content: space-between;
     margin-top: 44px;
-    border: 2px solid green;
  }
  .nav-bar-title-color{
    color: #FF5400;
    font-size: 36px;
  }
  .nav-bar-div1{
-   margin-left: 135px;
-   border: 2px solid blue;
+   margin-left: 125px;
    font-family: 'Mulish', sans-serif;
    display: flex;
    gap: 20px;
@@ -28,11 +26,14 @@
    text-decoration: none;
    margin-right: 44px;
    color:  #424247;
-   border: 2px solid black;
    font-size: 18px;
    font-family: 'Mulish', sans-serif;
    font-weight: 700;
    
+ }
+ .nav-bar-div2 a:hover{
+   color: #FF5400;
+   transition: 0.3s;
  }
  
  .nav-bar-div1 img{
@@ -45,8 +46,51 @@
  
  }
  /* ---------------------------------section02--------------------------------- */
-
-
+.section02-cover-img{
+   width: 1170px;
+   height: 500px;
+   margin: 0 auto;
+   margin-top: 50px;
+   border-radius: 16px;
+   background: linear-gradient(180deg, rgba(12, 12, 20, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+   
+}
+.section02-cover-img h1{
+ color: #FFF;
+font-size: 64px;
+font-family: 'Mulish', sans-serif;
+font-weight: 800;
+margin-left: 300px;
+padding-top: 110px;
+}
+.section02-cover-img p {
+margin-left: 200px;
+padding-top: 0px;
+color: #FFF;
+}
+.input{
+   height: 36px;
+   width: 100px;
+   padding: 10px;
+   
+}
+.input-section-02{
+   display: flex;
+   margin-top: 80px;
+   justify-content: center;
+   gap: 10px;
+}
+.section-02-btn{
+border-radius: 8px;
+background: #FF5400;
+padding: 5px;
+width: 150px;
+}
+.section-02-btn:hover{
+background-color: #FFF;
+transition: 0.5s;
+cursor: pointer;
+}
 
 
  /* ----------------------------------media quries--------------------------------------- */
@@ -60,5 +104,30 @@
    .nav-bar-div2 a{
    display:block;
    text-decoration: none;
+   }
+   .section02-cover-img{
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+   }
+   .section02-cover-img h1{
+      margin-left: 20px;
+      padding-top: 20px;
+      
+   }
+   .section02-cover-img p {
+      margin-left: 20px;
+   }
+   .input-section-02{
+      margin: 0px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .input{
+      height: 10px;
+      width: 100px;
+      padding: 2px;
    }
  }
