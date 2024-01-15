@@ -1,3 +1,46 @@
-body{
-    background-color: antiquewhite;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+ body{
+    margin: 0px;
+   
+ }
+ .section-01{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    border: 2px solid green;
+ }
+ .nav-bar-title-color{
+   color: #FF5400;
+   font-size: 36px;
+ }
+ .nav-bar-div1{
+   margin-left: 135px;
+   border: 2px solid blue;
+   font-family: 'Mulish', sans-serif;
+   display: flex;
+   gap: 20px;
+   font-size: 36px;
+ }
+ .nav-bar-div2 a {
+   text-decoration: none;
+   margin-right: 44px;
+   color:  #424247;
+   border: 2px solid black;
+   font-size: 18px;
+   font-family: 'Mulish', sans-serif;
+   font-weight: 700;
+   
+ }
+ 
+ .nav-bar-div1 img{
+ width: 48px;
+ height: 56.008px;
+ margin-top: 35px;
+ }
+ .nav-bar-div2{
+   margin-top: 20px;
+ 
+ }
