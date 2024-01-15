@@ -44,3 +44,21 @@
    margin-top: 20px;
  
  }
+ /* ---------------------------------section02--------------------------------- */
+
+
+
+
+ /* ----------------------------------media quries--------------------------------------- */
+ @media screen and (max-width:600px) {
+   .section-01{
+      display: inline;
+   }
+   .nav-bar-div1{
+   margin: 0px;  
+   }
+   .nav-bar-div2 a{
+   display:block;
+   text-decoration: none;
+   }
+ }
