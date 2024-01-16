@@ -159,7 +159,63 @@ width: 150px;
    margin-top: 20px;
 }
 
+/* ---------------------------------section-5----------------------------- */
+.section-5-details {
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
 
+.section-5-details h1 {
+text-align: center;
+font-size: 40px;
+font-size: 40px;
+font-family: 'Mulish', sans-serif;
+}
+.section-5-details p {
+   font-size: 16px;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-section-5-hotel{
+ width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.div-section-5-maps{
+   width: 573px;
+   height: 284px;
+   border-radius: 16px;
+   border: 1px solid rgba(41, 206, 246, 0.20);
+   background: rgba(41, 206, 246, 0.05);
+}
+.container-section-05{
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 30px;
+}
+.div-section-5-hotel img ,h1,p {
+margin-left: 40px;
+margin-top: 32px;
+}
+.div-section-5-maps img{
+margin-left: 40px;
+margin-top: 32px;
+}
+.div-section-5-tag {
+   border-radius: 16px;
+   border: 1px solid rgba(233, 68, 68, 0.20);
+   background: rgba(233, 68, 68, 0.05);
+   width: 573px;
+   height: 284px;
+   margin-left: 350px;
+   margin-bottom: 100px;
+}
+.div-section-5-tag img{
+   margin-left: 40px;
+   margin-top: 32px;
+}
 
  /* ----------------------------------media quries--------------------------------------- */
  @media screen and (max-width:600px) {
@@ -212,5 +268,24 @@ width: 150px;
    .paragraph-sec-4{
       margin-left: 40px;
       margin-bottom: 40px;
+   }
+   .container-section-05{
+      display: inline;
+      width: 100%;
+   }
+   .div-section-5-tag{
+      margin-left: 30px;
+      margin-top: 20px;
+   }
+   .div-section-5-hotel{
+      margin-left: 30px;
+      margin-bottom: 20px;
+   }
+   .div-section-5-maps{
+      margin-left: 30px;
+      margin-top: 20px;
+   }
+   .section-5-details{
+        margin-left: 10px;
    }
  }
