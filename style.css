@@ -217,6 +217,112 @@ margin-top: 32px;
    margin-top: 32px;
 }
 
+/*------------------------------ section-06--------------------------------- */
+
+
+.section-06 {
+display: flex;
+margin-bottom: 100px;
+}
+.section-06 h1 {
+   font-family: 'Mulish', sans-serif;
+   font-size: 40px;
+}
+.section-06-pic{
+   margin-right: 20px;
+}
+.btn-section-06{
+   border-radius: 8px;
+text-align: center;
+font-size: 20px;
+background: #FF5400;
+padding: 6px;
+margin-left: 10px;
+margin-top: 10px;
+cursor: pointer;
+width: 150px;
+border: 0.2px solid black;
+height: 30px;
+}
+.btn-section-06:hover{
+   background-color: #FFF;
+   transition: 0.3s;
+}
+.section-06-details{
+   margin-left: 30px;
+}
+
+
+/* --------------------------------section-07---------------------------- */
+
+.section-07{
+   display: flex;
+   margin-bottom: 100px;
+}
+.section-07{
+   font-family: 'Mulish', sans-serif;
+}
+.bar-section-07{
+   border: 1px solid salmon;
+   margin: 10px;
+   border-radius: 8px;
+}
+
+.sec-07-form{
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+.btn-section-07{
+   margin-left: 50px;
+   border-radius: 8px;
+   background: #FF5400;
+   height: 50px;
+   width: 390px;
+   cursor: pointer;
+}
+.btn-section-07:hover{
+   background-color: #FFF;
+   transition: 0.3s;
+}
+.input-sec-07{
+   height: 50px;
+   width: 380px;
+   border-radius: 8px;
+   background: rgba(19, 19, 24, 0.05);
+}
+
+/* -----------------------footer section--------------------------------- */
+
+.footer{
+width: 1263px;
+height: 302px;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer h1 {
+   margin-left: 550px;
+ padding-top: 110px;
+}
+.footer p {
+   text-align: center;
+}
+.footer-img img{
+   width:22px;
+   height: 25px;
+   padding-left: 200px;
+}
+.footer-img{
+   background: rgba(19, 19, 24, 0.05);
+   height: 50px;
+  
+ 
+}
+.line{
+width:1200px;
+height: 1px;
+ background-color: silver;
+ text-align: center;
+}
+
  /* ----------------------------------media quries--------------------------------------- */
  @media screen and (max-width:600px) {
    .section-01{
@@ -287,5 +393,41 @@ margin-top: 32px;
    }
    .section-5-details{
         margin-left: 10px;
+   }
+   .section-06{
+      display: inline;
+   }
+   .section-06 img {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+   .section-07{
+      display: inline;
+   }
+   .section-07 img{
+      width: 100%;
+   }
+   .input-sec-07{
+      height: 40px;
+      width: 100px;
+   }
+   .bar-section-07{
+     width: 0px;
+   }
+   .footer{
+      width: 400px;
+   }
+   .footer h1{
+   margin-left: 0px;
+   }
+   .footer-img img{
+      padding: 2px;
+   }
+   .footer-img {
+      background-color:none;
+   }
+   .line{
+      width: 0px;
    }
  }
