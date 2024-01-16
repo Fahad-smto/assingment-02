@@ -322,6 +322,35 @@ height: 1px;
  background-color: silver;
  text-align: center;
 }
+/* -----------------------extra section-------------------- */
+
+.extra-section h1{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-family: 'Mulish', sans-serif;
+   font-size: 40px;
+}
+.extra-section-from{
+   margin-left: 500px;
+}
+.btn-extra{
+   margin-left: 500px;
+   margin-top: 10px;
+   border-radius: 8px;
+   background:red;
+   padding: 5px;
+   width: 150px;
+   height: 50px;
+}
+.btn-extra:hover{
+   background-color: #FFF;
+   transition: 0.3s;
+}
+.extra-section-from{
+   padding: 20px;
+   width: 300px;
+}
 
  /* ----------------------------------media quries--------------------------------------- */
  @media screen and (max-width:600px) {
@@ -429,5 +458,11 @@ height: 1px;
    }
    .line{
       width: 0px;
+   }
+   .extra-section-from{
+      margin-left: 20px;
+   }
+   .btn-extra{
+      margin-left: 20px;
    }
  }
